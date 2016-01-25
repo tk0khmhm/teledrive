@@ -1,0 +1,9 @@
+<launch>
+        <node name="trajectory_manager" pkg="teledrive" type="trajectory_manager" />
+        <node name="collision_checker" pkg="teledrive" type="collision_checker" />
+        <node name="control_infant" pkg="teledrive" type="control_infant" />
+        <node name="radicon" pkg="teledrive" type="radicon" />
+        <!--<node name="topgun" pkg="teledrive" type="topgun" />-->
+        <node name="motion_player" pkg="teledrive" type="motion_player" />
+        <node name="generate_server" pkg="teledrive" type="generate_server" />
+</launch>

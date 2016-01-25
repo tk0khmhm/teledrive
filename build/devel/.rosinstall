@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/amsl/AMSL_ros_pkg/ceres/teledrive/build/devel/setup.sh

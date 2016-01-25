@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="joy" name="joy_node" type="joy_node" output="screen"/>
+	<node pkg="teledrive" name="topgun" type="topgun" output="screen"/>
+	<node pkg="teledrive" name="motion_player" type="motion_player" output="screen"/>
+</launch>
